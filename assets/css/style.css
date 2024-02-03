@@ -1,0 +1,300 @@
+.body{
+    font-family: Quantum Sans Serif;
+  }
+  
+  @media (max-width: 576px){
+  
+  .topbar-text {
+      font-size: 20px;
+      line-height: 30px;
+  }
+  
+  .foot-tab{
+      display:none;
+  }
+  }
+   
+  .img-thumbnail{
+      padding: 0;
+  }
+  
+  .topbar{
+     width: 100%;
+     z-index: -1;
+  }
+  
+  li{
+      list-style: none;
+  }
+  
+  .navbar-brand{
+      font-size: x-large;
+      font-weight: 600;
+      color: white;
+      margin-right: -20px;
+  }
+  
+  .navbar-brand:hover{
+    color: white;
+  }
+  
+  .topbar img{
+    border-radius: 25px;
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  .topbar img:hover {
+    transform: scaleX(1.10);
+    transition: transform o.5s ease;
+  }
+  
+  .topbar-text{
+     text-align: center;
+     margin-top: 40px;
+     color: black;
+     line-height: 60px;
+  
+  }
+  
+  button:focus {
+      outline: none;
+  }
+  
+  .navbar-toggler{
+     border: none;
+     outline: none;
+  }
+  
+  .footer{
+      background-color: #141e35;
+      color: white;
+      border-top: 1px solid rgb(235, 223, 223);
+      z-index: 2;
+  }
+  
+  nav{
+    background-color: #141e35;
+  }
+  
+  
+  .add-post{
+      margin: 20px;
+  }
+  
+  .foot-item{
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  
+  .foot-head{
+      color: white !important;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      padding-bottom: 5px;
+  }
+  
+  .foot-head a{
+    color: white;
+  }
+  
+  label{
+    margin-right: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:5px 5px;
+  }
+  
+  @media (max-width: 992px) {
+  
+    }
+  
+    @media (min-width: 769px) and (max-width: 992px){
+  .favourite .row .col-md-4 .row .col-md-4 img{
+    width: 145%;
+  }
+    }
+  
+  @media (max-width: 992px){
+      .la-menu{
+        display: none;
+      }
+    }
+  
+  .display-flex{
+    display: flex;
+  }
+  
+  button.navbar-toggler:focus{
+    outline: none;
+    border: none;
+  }
+  
+  .contact-form form input{
+    background-color: #eaeaea;
+    border-radius: 10px;
+    height: 50px;
+  }
+  
+  .contact-form form textarea{
+    background-color: #eaeaea;
+    height: 100px;
+    border-radius: 10px;
+  }
+  .contact-form form{
+    border: 2px solid #d4d8d2;
+    margin-bottom: 50px;
+    border-radius: 10px;
+  }
+  
+  .contact-form h2{
+    font-weight: 600;
+  }
+  
+  .logo{
+    width: 100px;
+    height: 80px;
+  }
+  
+  .jumbotron{
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .btn-bd-ra{
+    border-radius: 8px;
+    margin-top: 5px;
+  }
+  
+  .navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top{
+    padding-left: 20px;
+  }
+  
+  #dev-credit{
+   font-size: 10px;
+  }
+  
+  .nav-link{
+    color: white !important;
+  }
+  
+  .nav-item:hover{
+    color: white !important;
+  }
+  
+  
+  .navbar-brand{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .footer a {
+    color: white;
+  }
+  
+  .favourite .row .col-md-4 .row .col-md-4 img{
+    max-width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: 2px solid rgb(235, 223, 223);
+    margin: 10px auto;
+  }
+  
+  .favourite .row .col-md-6 .row .col-md-4{
+    margin: 20px auto;
+  }
+  
+  h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  *{
+    font-family: Tahoma, Quantum  sans-serif;
+  }
+  
+  .services .row .col-md-3 div img{
+    width: 70%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .services .row .col-md-3 div h5{
+    text-align: center;
+  }
+  
+  .services h5{
+    text-align: center;
+    margin-top: 30px;
+    line-height: 30px;
+  }
+  
+  .services .row .col-md-3 div{
+     border: 1px solid rgb(235, 223, 223);
+     justify-content: center;
+     margin: 30px 5px;
+     border-radius: 15px;
+     padding: 15px 20px;
+     height: 300px;
+  }
+  
+  .services .row .col-md-3 div:hover img{
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+  }
+  
+  section{
+    margin-bottom: 100px;
+  }
+  
+  .nums .row{
+    background-color: #141e35;
+    border-radius: 15px;
+    color: white;
+    padding: 20px 20px;
+  }
+  
+  .btn-dcolor{
+    background-color: #142549;
+    color: white;
+  }
+  
+  .text-Lfont{
+    font-weight: 600;
+  }
+  
+  .nums .row .col-md-3{
+    margin: 30px 0;
+  }
+  
+  .text-dcolor{
+    color: #132b5f;
+  }
+  
+  .newsletter div input{
+    height: 50px;
+    border: 1.5px solid #142549;
+    border-right: none;
+    margin-right: -13px;
+    border-radius: 15px;
+  }
+  
+  .newsletter div button{
+    background-color: #142549;
+    color: white;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    z-index: 10;
+  }
+  
+  .cover-2{
+    width: 100%;
+    border-radius: 10%;
+  }
